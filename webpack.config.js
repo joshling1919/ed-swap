@@ -3,7 +3,7 @@ const path = require('path');
     context: __dirname,
     entry: './frontend/index.jsx',
     output: {
-    path: '../server/static',
+    path: './app/assets/javascripts',
     filename: 'bundle.js'
   },
   resolve: {
