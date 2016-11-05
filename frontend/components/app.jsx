@@ -10,7 +10,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        Welcome to your new Eos app
+        Welcome to edSwap!
       </div>
     );
   }
