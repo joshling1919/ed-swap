@@ -1,7 +1,8 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import AppRouter from './router';
 
+// components
+import AppRouter from './app/router';
 
 const Root = ({ store }) => {
 	return (
