@@ -5,9 +5,11 @@ import { syncHistoryWithStore } from 'react-router-redux';
 // components
 import App from './app';
 
-const AppRouter = () => {
+const AppRouter = ({ store }) => {
+  const history= syncHistoryWithStore(browserHistory, store);
+  
   return(
-    <Router history={browserHistory}>
+    <Router history={history}>
       <Route path="/" component={ App }>
         // Routes go here
       </Route>
